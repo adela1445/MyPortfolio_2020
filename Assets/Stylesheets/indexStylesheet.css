@@ -1,0 +1,100 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Styling for Row1 */
+
+.navbar-width {
+  padding: unset;
+}
+#mheader {
+  background-color: palevioletred;
+  color: aliceblue;
+  font-family: "Fondamento", cursive;
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 1rem;
+  text-align: center;
+  margin-left: 5%;
+}
+.nav-position {
+  position: absolute;
+  right: 10px;
+}
+#nav-style {
+  font-family: "Sahitya", serif;
+  color: white;
+  font-size: large;
+  background-color: mediumaquamarine;
+  margin-right: 1rem;
+}
+hr {
+  width: 100%;
+  background-color: palevioletred;
+  border-width: thick;
+}
+/* Styling for Container 2 */
+.container-AboutMe {
+  float: left;
+  background-color: rgb(252, 252, 252);
+  margin-top: 30px;
+  margin-left: 5%;
+  font-family: "Fondamento", cursive;
+  color: palevioletred;
+}
+.row-align {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 30px;
+}
+
+img {
+  float: left;
+  width: 200px;
+  height: auto;
+  border-radius: 75px;
+  border-color: palevioletred;
+  border-width: thick;
+  border-style: dotted;
+  margin-right: 15px;
+}
+p {
+  color: gray;
+}
+
+footer {
+  float: left;
+  text-align: center;
+  background-color: lavender;
+  padding: 1%;
+  border-top-style: solid;
+  border-top-color: palevioletred;
+  border-top-width: 1rem;
+  position: fixed;
+  bottom: 0px;
+}
+/* @Media Queries  */
+
+/* The screen turns mediumaquamarine if the width is less than 640px */
+@media screen and (max-width: 640px) {
+  body {
+    background-color: mediumaquamarine;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: rgb(102, 190, 205);
+  }
+}
+
+/* The screen turns mediumaquamarine if the width is 980px and greater */
+@media screen and (min-width: 980px) {
+  body {
+    background-color: mediumaquamarine;
+  }
+}

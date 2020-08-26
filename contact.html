@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+
+    <!-- My bootstrap css stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- My bootstrap js code -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- My Font from GoogleFonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Modak&family=Roboto+Mono:wght@200&family=Sahitya&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My css stylesheet -->
+    <link rel="stylesheet" href="./Assets/Stylesheets/contactStylesheet.css" />
+  </head>
+  <body>
+    <!-- Creating First Container for Header&Navigation links -->
+    <div class="container-fluid">
+      <!-- Start of row 1 which contains Header & Navbar -->
+
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light row navbar-width"
+      >
+        <!-- Start of header column -->
+
+        <a class="navbar-brand col-xs-4" id="mheader">Stephany Adela Lopez</a>
+        <!-- End of Header column -->
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Start of navbar button/link column -->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav nav-position">
+            <!-- button/link section -->
+            <a
+              class="nav-item nav-link active"
+              id="nav-style"
+              href="./index.html"
+              >About <span class="sr-only">(current)</span></a
+            >
+            <a
+              class="nav-item nav-link active"
+              id="nav-style"
+              href="./portfolio.html"
+              >Portfolio</a
+            >
+            <a
+              class="nav-item nav-link active"
+              id="nav-style"
+              href="./contact.html"
+              >Contact</a
+            >
+          </div>
+        </div>
+        <!-- End of navbar column -->
+      </nav>
+      <!-- End of row 1 -->
+    </div>
+
+    <!-- Start of container for Contact section -->
+    <div class="container container-Contact">
+      <!-- Start of row2 for Contact & break line-->
+      <div class="row row-align">
+        <h4>Contact</h4>
+        <hr />
+        <!-- End of row2 -->
+
+        <!-- Start of row 3 for Form -->
+        <div class="row">
+          <div class="col">
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1"
+                  >First and Last Name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="John Smith"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="12"
+                ></textarea>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Submit button -->
+      <div class="row row-align submit-button">
+        <a
+          href="#"
+          class="btn btn-primary btn-md active"
+          role="button"
+          aria-pressed="true"
+          >Submit</a
+        >
+      </div>
+    </div>
+    <footer class="container-fluid">@Copywrite</footer>
+  </body>
+</html>
